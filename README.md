@@ -9,7 +9,7 @@ check-drive.sh
 3) If drive is already present and mounted, then start loop script
 
 loopy.sh
-1) starts timemachine backup and waits 5 seconds
+1) Starts timemachine backup and waits 5 seconds
 2) Checks if timemachine is running and loops to keep checking
 3) Once loop shows timemachine is not running anymore it unmounts the defined drive and shows on-screen notification
 
