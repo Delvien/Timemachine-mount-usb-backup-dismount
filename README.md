@@ -27,5 +27,5 @@ PS: I am not responsible if you run this and blow up your machine. Troubleshooti
 
 WHAT THIS SCRIPT DOES NOT DO:
 
-It doesnt dismount your drive without running the script. Period. A scenario I would imagine would be: plug in your macbook into a dock which has the timemachine disk attached to it, your timer or manual run of this script isnt ran yet, you unplug and it doesnt eject the disk properly causing corruption.
+It doesnt dismount your drive without running the script. Period. A scenario I would imagine would be: plug in your macbook into a dock which has the timemachine disk attached to it, your cronjob or manual run of this script isnt ran yet, you unplug and it doesnt eject the disk properly causing corruption.
 Dont do this. Be smart, know the limitations of the script.
