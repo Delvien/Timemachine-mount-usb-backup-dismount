@@ -1,6 +1,8 @@
 # Timemachine-mount-usb-backup-dismount
 #A shell script utility that checks to see if your USB drive is attached, mount if not mounted, then run a pre-setup time machine backup, after the backup is done, it unmounts the drive.
 
+This could be cleaner, but I don't do much scripting, so I'm sort of new. :)
+
 There are two scripts here, the first being check-drives.sh which does the following:
 
 check-drive.sh
