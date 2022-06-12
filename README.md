@@ -1,7 +1,7 @@
 # Timemachine-mount-usb-backup-then-dismount
 #A shell script utility that checks to see if your USB drive is attached, mount if not mounted, then run a pre-setup time machine backup, after the backup is done, it unmounts the drive.
 
-This could be cleaner, but I don't do much scripting, so I'm sort of new. :)
+This could be cleaner, but I don't do much scripting, and I'm not a programmer :)
 
 There are two scripts here, the first being check-drives.sh which does the following:
 
@@ -17,9 +17,10 @@ loopy.sh
 
 Things you must know:
 
-You have to place both files in /usr/bin/local. If you do not, make sure to change check-drives.sh to point to the directory you put them in.
-You HAVE to define your drive name (check comments in both scripts.)
+1) At minimum you must place loopy.sh in /usr/bin/local. If you do not, make sure to change check-drives.sh to point to the directory you put loopy.sh in.
 
-You can change the script however you want, as long as you dont try to sell it.
+2) You HAVE to define your drive name (check comments in both scripts.)
+
+3) You can change the script however you want, as long as you dont try to sell it. (people try the darndest things)
 
 PS: I am not responsible if you run this and blow up your machine. Troubleshooting is your responsibility. 
